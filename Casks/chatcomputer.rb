@@ -7,9 +7,10 @@ cask "chatcomputer" do
   desc "macOS virtual machine operated by an AI agent while you chat"
   homepage "https://chatcomputer.github.io/"
 
+  # Releases are marked pre-release until 1.0, which the GitHub releases strategy skips; tags are not.
   livecheck do
-    url :url
-    strategy :github_releases
+    url "https://github.com/chatcomputer/chatcomputer.git"
+    strategy :git
   end
 
   depends_on arch: :arm64
