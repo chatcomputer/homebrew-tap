@@ -1,6 +1,6 @@
 cask "chatcomputer" do
-  version "0.9.7"
-  sha256 "ea944aaacfb2ccc7af2d5db38dac975bfb7acd3a723a78e5c325d75b8c366670"
+  version "0.9.8"
+  sha256 "d0fd8c531ef0eea6d1f73ca3a1acf65f362f912e79027746c17335e63675d56c"
 
   url "https://github.com/chatcomputer/chatcomputer/releases/download/v#{version}/ChatComputer.zip"
   name "Chat Computer"
