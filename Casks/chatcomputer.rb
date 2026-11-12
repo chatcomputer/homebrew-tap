@@ -5,7 +5,7 @@ cask "chatcomputer" do
   url "https://github.com/chatcomputer/chatcomputer/releases/download/v#{version}/ChatComputer.zip"
   name "Chat Computer"
   desc "macOS virtual machine operated by an AI agent while you chat"
-  homepage "https://chatcomputer.github.io/"
+  homepage "https://atomsprout.com/chatcomputer/"
 
   # Releases are marked pre-release until 1.0, which the GitHub releases strategy skips; tags are not.
   livecheck do
